@@ -15,9 +15,5 @@ public class Main {
             System.out.println("Установите облегченную версию приложения для iOS по ссылке");
         }
 
-
-
-
-
     }
 }
