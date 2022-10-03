@@ -23,5 +23,17 @@ public class Main {
         } else {
             System.out.println(year + " год не является високосным");
         }
+        //Задача 4
+        System.out.println("Задача 4");
+
+        int deliveryDistance = 60;
+        int day = 1;
+        int distanceIncer = 40;
+
+        if (deliveryDistance > 20) {
+            int addDays = (deliveryDistance -20)/ distanceIncer+1;
+            day = addDays + day;
+        } System.out.println("Потребуется дней: " + day);
+
     }
 }
